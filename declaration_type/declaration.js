@@ -1,28 +1,29 @@
 var a=1
 console.log(a)
-b=5
+var b=5
 console.log(b)
-c='sujeth'
+var c='sujeth'
 console.log(c)
-d=3+27
+var d=3+27
 console.log(d)
 let r=43
 console.log(r)
-f= 'my first coding class'
+let f= 'my first coding class'
 console.log(f)
 const num=45
 console.log(num)
 // console.log(r)
 var sk='global variable1'
-kl='global variable2'
+var kl='global variable2'
 function hello() {
     let uv='local variable1'
-    xy='local variable2'
+    let xy='local variable2'
     console.log(uv)
+    console.log(sk)
+    console.log(kl)
     console.log(xy)
 }
-console.log(sk)
-console.log(kl)
+hello()
 var o
 console.log(o)
 let y
