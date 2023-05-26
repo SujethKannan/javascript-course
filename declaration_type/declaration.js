@@ -12,7 +12,6 @@ let f= 'my first coding class'
 console.log(f)
 const num=45
 console.log(num)
-// console.log(r)
 var sk='global variable1'
 var kl='global variable2'
 function hello() {
