@@ -4,4 +4,4 @@ const data = new Object (
         age : 30
     }
 )
-console.log(data.name)
+console.log(data)
