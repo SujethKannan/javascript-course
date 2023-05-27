@@ -1,0 +1,5 @@
+var number= [23,45,1002,890,500,789,3004,8991]
+var over = number.findIndex(function(e){
+    return e>1000
+})
+console.log(number[over])
