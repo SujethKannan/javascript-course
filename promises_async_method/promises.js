@@ -8,7 +8,7 @@ function getProvider(value){
     // return result
 }
 function getRequest (value) {
-	return new Promise ((resolve, reject) => {
+	return new Promise((resolve, reject) => {
 		if (value === 'googleservice') {
 			resolve('Request received to Google services')
 		}
@@ -16,13 +16,14 @@ function getRequest (value) {
 	})
 }
 
-getProvider('Google-').then((message)=>{
+getProvider('Google').then((message)=>{
     console.log("getProvider::",message)
     getRequest(message).then((result)=>{
         console.log("getRequest::",result)
     })
-}).catch((error)=>{
-    console.log(error)
+    .catch((error)=>{
+        console.log(error)
+})
    }).catch((error)=>{
     console.log(error)
    })
